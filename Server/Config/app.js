@@ -5,6 +5,8 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 
+const hbs = require('hbs');
+
 // Routing modules
 const indexRouter = require('../Routes');
 
@@ -13,6 +15,17 @@ const app = express();
 // view engine setup
 app.set('views', path.join(__dirname, '../Views'));
 app.set('view engine', 'hbs');
+
+// register hbs helpers
+hbs.registerPartials(path.join(__dirname, '../Views/components/'));
+hbs.registerPartials(path.join(__dirname, '../Views/content/'));
+
+hbs.registerHelper('loadPage', function (pageName) 
+{
+  console.log("pageName: " + pageName);
+  return pageName
+});
+
 
 // middleware configuration
 app.use(logger('dev'));

@@ -10,9 +10,19 @@
     <link rel="stylesheet" href="Content/app.css">
 </head>
 <body>
+    <header>
+        {{> navbar }}
+    </header>
+
+
     <main>
-        {{{body}}}
+        {{> (loadPage page)}}
     </main>
+
+
+    <footer>
+        {{> footer}}
+    </footer>
     
 
     <!-- Script Section -->
