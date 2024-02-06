@@ -1,10 +1,10 @@
 const mongoose = require('mongoose');
 
 const bookSchema = new mongoose.Schema({
-    title: String,
-    releaseDate: Date,
+    title: {type : String, required: true},
+    releaseDate: {type: Date},
     genres: [String],
-    authors: [String],
+    authors: {type: mongoose.Schema.Types.ObjectId, refPath: 'type'},
     description: String,
     country: String,
     languages: [String],
