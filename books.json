@@ -1,0 +1,95 @@
+[{
+    "title": "Dune",
+    "releaseDate": "1965-06-01",
+    "genres": ["Science Fiction"],
+    "authors": ["Frank Herbert"],
+    "country": "USA",
+    "languages": ["English"],
+    "publisher": "Chilton Books",
+    "pages": 896
+ },
+ {
+    "title": "Godfather",
+    "releaseDate": "1969-03-10",
+    "genres": ["Crime", "Drama"],
+    "authors": ["Mario Puzo"],
+    "country": "USA",
+    "languages": ["English"],
+    "publisher": "G.P. Putnam's Sons",
+    "pages": 433
+ },
+ {
+    "title": "The Hobbit",
+    "releaseDate": "1937-09-21",
+    "genres": ["Fantasy"],
+    "authors": ["J.R.R. Tolkien"],
+    "country": "UK",
+    "languages": ["English"],
+    "publisher": "George Allen & Unwin",
+    "pages": 310
+ },
+ {
+    "title": "The Catcher in the Rye",
+    "releaseDate": "1951-07-16",
+    "genres": ["Realistic Fiction"],
+    "authors": ["J.D. Salinger"],
+    "country": "USA",
+    "languages": ["English"],
+    "publisher": "Little, Brown and Company",
+    "pages": 277
+ },
+ {
+    "title": "The Great Gatsby",
+    "releaseDate": "1925-04-10",
+    "genres": ["Tragedy"],
+    "authors": ["F. Scott Fitzgerald"],
+    "country": "USA",
+    "languages": ["English"],
+    "publisher": "Charles Scribner's Sons",
+    "pages": 218
+ },
+ {
+    "title": "To Kill a Mockingbird",
+    "releaseDate": "1960-07-11",
+    "genres": ["Realistic Fiction"],
+    "authors": ["Harper Lee"],
+    "country": "USA",
+    "languages": ["English"],
+    "publisher": "J.B. Lippincott & Co.",
+    "pages": 281
+ },
+ {
+    "title": "1984",
+    "releaseDate": "1949-06-08",
+    "genres": ["Dystopian"],
+    "authors": ["George Orwell"],
+    "country": "UK",
+    "languages": ["English"],
+    "publisher": "Secker & Warburg",
+    "pages": 328
+ },
+ {
+    "title": "The Lord of the Rings",
+    "releaseDate": "1954-07-29",
+    "genres": ["Fantasy"],
+    "authors": ["J.R.R. Tolkien"],
+    "country": "UK",
+    "languages": ["English"],
+    "publisher": "George Allen & Unwin",
+    "pages": 1137
+ },
+ {
+    "title": "The Alchemist",
+    "releaseDate": "1988-01-01",
+    "genres": ["Quest"],
+    "authors": ["Paulo Coelho"],
+    "country": "Brazil",
+    "languages": ["Portuguese"],
+    "publisher": "HarperCollins",
+    "pages": 197
+ }
+]
+    
+
+
+
